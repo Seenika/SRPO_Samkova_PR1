@@ -27,47 +27,55 @@ namespace SRPO_Samkova_PR1
 
         private void Pust1_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust1.Content = "0";
         }
 
         private void Pust2_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust2.Content = "1";
         }
 
         private void Pust3_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust3.Content = "0";
         }
 
         private void Pust4_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust4.Content = "0";
         }
 
         private void Pust5_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Ты здох, тут мина, сочувствую TvT");
+            Pust5.Content = "х_х";
         }
 
         private void Pust6_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust6.Content = "1";
         }
 
         private void Pust7_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust7.Content = "0";
         }
 
         private void Pust8_Click(object sender, RoutedEventArgs e)
         {
-
+            Pust8.Content = "0";
         }
 
         private void Pust9_Click(object sender, RoutedEventArgs e)
         {
+            Pust9.Content = "0";
+        }
+
+        private void Pust10_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("НЕ ТРОГАЙ! Здесь ничего нет. >:[");
 
         }
+
     }
 }

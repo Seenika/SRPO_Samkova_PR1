@@ -8,5 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="Pust1" Width="30" Height="30" Background="LightGray" Click="Pust1_Click"/>
+        <Button x:Name="Pust2" Width="30" Height="30" Background="LightGray" Click="Pust2_Click" Margin="381,151,381,238"/>
+        <Button x:Name="Pust3" Width="30" Height="30" Background="LightGray" Click="Pust3_Click" Margin="381,236,381,153"/>
+        <Button x:Name="Pust4" Width="30" Height="30" Background="LightGray" Click="Pust4_Click" Margin="421,194,341,195"/>
+        <Button x:Name="Pust5" Width="30" Height="30" Background="LightGray" Click="Pust5_Click" Margin="339,151,423,238"/>
+        <Button x:Name="Pust6" Width="30" Height="30" Background="LightGray" Click="Pust6_Click" Margin="339,194,423,195"/>
+        <Button x:Name="Pust7" Width="30" Height="30" Background="LightGray" Click="Pust7_Click" Margin="421,151,341,238"/>
+        <Button x:Name="Pust8" Width="30" Height="30" Background="LightGray" Click="Pust8_Click" Margin="421,236,341,153"/>
+        <Button x:Name="Pust9" Width="30" Height="30" Background="LightGray" Click="Pust9_Click" Margin="339,236,423,153"/>
     </Grid>
 </Window>

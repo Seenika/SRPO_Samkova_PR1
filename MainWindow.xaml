@@ -7,15 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Pust1" Width="30" Height="30" Background="LightGray" Click="Pust1_Click" Margin="381,194,381,195"/>
-        <Button x:Name="Pust2" Width="30" Height="30" Background="LightGray" Click="Pust2_Click" Margin="381,151,381,238"/>
-        <Button x:Name="Pust3" Width="30" Height="30" Background="LightGray" Click="Pust3_Click" Margin="381,236,381,153"/>
-        <Button x:Name="Pust4" Width="30" Height="30" Background="LightGray" Click="Pust4_Click" Margin="421,194,341,195"/>
-        <Button x:Name="Pust5" Width="30" Height="30" Background="LightGray" Click="Pust5_Click" Margin="339,151,423,238"/>
-        <Button x:Name="Pust6" Width="30" Height="30" Background="LightGray" Click="Pust6_Click" Margin="339,194,423,195"/>
-        <Button x:Name="Pust7" Width="30" Height="30" Background="LightGray" Click="Pust7_Click" Margin="421,151,341,238"/>
-        <Button x:Name="Pust8" Width="30" Height="30" Background="LightGray" Click="Pust8_Click" Margin="421,236,341,153"/>
-        <Button x:Name="Pust9" Width="30" Height="30" Background="LightGray" Click="Pust9_Click" Margin="339,236,423,153"/>
-        <Button x:Name="Pust10" Width="30" Height="30" Background="LightGray" Click="Pust10_Click" Margin="735,369,27,20"/>
+        <Button x:Name="Pust1" Width="40" Height="40" Background="LightGray" Click="Pust1_Click" Margin="381,194,371,185"/>
+        <Button x:Name="Pust2" Width="40" Height="40" Background="LightGray" Click="Pust2_Click" Margin="381,137,371,242"/>
+        <Button x:Name="Pust3" Width="40" Height="40" Background="LightGray" Click="Pust3_Click" Margin="381,252,371,127"/>
+        <Button x:Name="Pust4" Width="40" Height="40" Background="LightGray" Click="Pust4_Click" Margin="436,194,316,185"/>
+        <Button x:Name="Pust5" Width="40" Height="40" Background="LightGray" Click="Pust5_Click" Margin="324,137,428,242"/>
+        <Button x:Name="Pust6" Width="40" Height="40" Background="LightGray" Click="Pust6_Click" Margin="324,194,428,185"/>
+        <Button x:Name="Pust7" Width="40" Height="40" Background="LightGray" Click="Pust7_Click" Margin="435,137,317,242"/>
+        <Button x:Name="Pust8" Width="40" Height="40" Background="LightGray" Click="Pust8_Click" Margin="435,252,317,127"/>
+        <Button x:Name="Pust9" Width="40" Height="40" Background="LightGray" Click="Pust9_Click" Margin="324,251,428,128"/>
+        <Button x:Name="Pust10" Width="40" Height="40" Background="LightGray" Click="Pust10_Click" Margin="735,369,17,10"/>
+        <Canvas>
+            <Label Canvas.Left="328" Canvas.Top="83" Content="Не напоритесь на мину"/>
+        </Canvas>
     </Grid>
 </Window>

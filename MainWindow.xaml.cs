@@ -47,8 +47,8 @@ namespace SRPO_Samkova_PR1
 
         private void Pust5_Click(object sender, RoutedEventArgs e)
         {
+            Pust5.Content = "х____х";
             MessageBox.Show("Ты здох, тут мина, сочувствую TvT");
-            Pust5.Content = "х_х";
         }
 
         private void Pust6_Click(object sender, RoutedEventArgs e)
